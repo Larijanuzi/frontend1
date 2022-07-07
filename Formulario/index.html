@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+    <body>
+        <header>
+               <h4>20% de descuento en todos los productos!</h4>
+               <h1>Heroes</h1>
+               <div class="encabezado">
+                    <span>Contacto</span>
+                    <span>Registrarme</span>
+                    <span>Ingresar</span>
+               </div> 
+        </header>
+        <main>
+            <p>Añadí tu super!</p>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <form action="/registro" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="usuario" id="nombre">
+                <label for="especie">Especie</label>
+                <select name="especie">
+                    <option>Héroi</option>
+                    <option>Trágico</option>
+                    <option>Épico</option>
+                    <option>Villano</option>
+                </select>
+               <div>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha">
+                    <label for="foto">Agregar Foto</label>
+                    <input type="file" name="Foto" accept=".jpg, .png">
+               </div>
+               <div>
+                  <textarea>Descripción</textarea>
+                  <div>
+                    <label for="poder">Poderes</label>
+                    <p> <input type="checkbox" name="poder" value="volar"> Volar </p>
+                    <p> <input type="checkbox" name="poder" value="Inteligencia"> Super Inteligencia </p>
+                    <p> <input type="checkbox" name="poder" value="laser"> Vista de rayo láser </p>
+                    <p> <input type="checkbox" name="poder" value="billetera"> Billetera Gorda </p>
+                  </div>  
+                  <div>
+                    <label for="tipo">Tipo de Personaje</label>
+                   <p> <input type="radio" name="tipo" value="heroe"> Héroe / Heroína </p>
+                   <p> <input type="radio" name="tipo" value="villano"> Villano / Villana </p>
+                  </div>  
+               </div>
+
+
+               <div>
+                <button type="submit">Añadir</button>
+               </div> 
+
+            </form>
+
+        </main>
+    </body>
+    <footer></footer>
+</html>        

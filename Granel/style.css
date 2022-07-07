@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    background-color: #eae2b7;
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+    color: #003049;
+}
+h1 {
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+    position: relative;
+    left: 40%;
+}
+main {
+    background-color: #eae2b7;
+    color: #003049;
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+    font-size: large;
+    text-align: center; 
+}
+footer {
+    background-color: #eae2b7;
+}
+.logo {
+    width: 50%;
+    position: relative;
+    left: 25%; 
+}
+.textoprincipal {
+    font-size: large;
+    font-weight: bolder;
+    font-size: large;
+}
+.container {
+    display: flex;
+}
+.respsim, .respnao {
+    display: block;
+    width: 100%;    
+}
+.dados {
+    width: 600px;
+    height: 30px;
+    border-radius: 20px;
+}
+.dadospessoais {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+.botao {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+.botao:hover {
+    background-color: #5285a1;
+}
+.foto {
+    width: 20%;
+}
+

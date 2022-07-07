@@ -1,0 +1,33 @@
+.imagen{
+    display: block;
+ margin: 0px auto;
+}
+h1 {
+    background-color: #c4c4c4;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f54260;
+
+}
+.espacio {
+    background-color: blanchedalmond;
+}
+h3 {background-color: #c4c4c4;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f54260;
+
+}
+.pie {
+    background-color: #f54260;
+    text-align: center;
+    color: #c4c4c4;
+    font-size: large;
+    font-weight:  bolder;
+}
+.negrita {
+    font-weight:  bolder;
+}
+.logo {
+    max-width: 6%;
+ max-height: 7%;
+}

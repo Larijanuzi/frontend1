@@ -1,0 +1,176 @@
+.encabezado1 { 
+    background-color: black;
+    display: flex;
+
+}
+
+.encabezado { 
+    color: white;
+    padding-block-end: 0%;
+    padding-inline-start: 0%;
+    padding-left: 40px;
+    box-sizing: border-box;
+    
+}
+
+.encabezado2 {
+    color: white;
+    padding-block-end: 0%;
+    padding-inline-start: 0%;
+    padding-left: 900px;
+    box-sizing: border-box;
+}
+
+.logo {
+    background-color: orange;
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.logo1 {
+    padding-left: 400px;
+    word-spacing: 30px;
+
+}
+
+.comedero {
+    width: 100%;
+}
+
+.texto-encima {
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+    position: absolute;
+    top: 350px;
+    right: 80px;
+}
+
+.texto-encima1 {
+    color: black;
+    font-size: medium;
+    position: absolute;
+    top: 395px;
+    right: 170px;
+}
+
+.texto-encima2 {
+    background-color: orange;
+    color: white;
+    font-size: medium;
+    position: absolute;
+    top: 420px;
+    right: 180px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    margin-block-end: 0px;
+    margin-left: 90px;
+    display: inline-block;
+}
+
+.patita {
+    margin:10px auto;
+    display:block;
+    }
+
+.patitas {
+    text-align: center;
+}  
+
+footer { 
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h5 {
+    color: #3C2313;
+    font-size: 20px;
+    font-weight: bold;
+    margin-block-start: 0px;
+
+}
+
+h6 {
+    color: #F0A83E;
+    font-size: large;
+    font-weight: 100px;
+    text-align: center;
+    margin-block-start: 0px;
+    
+}
+
+.reset {
+    text-align: center;
+} 
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+}
+.imagen1 {
+    
+}
+.imagen2 {
+  
+}
+.imagen3 {
+  
+
+}
+.footer1 {
+    background-color: #3C2313;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+
+}
+
+.localidad { 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+}
+
+.telefono { 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+}
+
+.correo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+}
+.subtitulo {
+    color: #8A8787;
+    font-size: medium;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.logofinal {
+    display: inline-block;
+    position: relative;
+    left: 1000px;
+    bottom: 280px;
+
+}
+.footer2 {
+    background-color: #F0A83E;
+}

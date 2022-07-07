@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Granel</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+    <body>
+        <header>
+               <h1>Cadastro Granel</h1>
+        </header>
+        <main>
+            <p class="textoprincipal">Preencha o seguinte formulário</p>
+            <p class="textoprincipal">Em breve entraremos em contato para maiores informações.</p>
+            <form action="/registro" method="post">
+                <div>
+                    <label for="tipo">Já é nosso cliente?</label>
+                   <span> <input type="radio" name="tipo" value="cliente"> Sim </span>
+                   <span> <input type="radio" name="tipo" value="naocliente"> Não </span>
+                  </div> 
+                  <br>
+                  <label for="possui">Possui granel?</label>
+                <select name="possui">
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+                <br><br>
+                <div class="container">
+                    <div class="respsim">
+                        <label for="produto">Caso sua resposta seja SIM, qual óleo você usa a granel?</label>
+                        <p> <input type="checkbox" name="produto" value="15w40">  15w40 </p>
+                        <p> <input type="checkbox" name="produto" value="10w40">  10w40 </p>
+                        <p> <input type="checkbox" name="poduto" value="5w30"> 5w30 </p>
+                    </div>
+                    <div class="respnao">
+                        <label for="produto">Caso sua resposta seja NÃO, qual óleo você gostaria de ter na sua empresa a granel?</label>
+                        <p> <input type="checkbox" name="produto" value="15w40">  15w40 </p>
+                        <p> <input type="checkbox" name="produto" value="10w40">  10w40 </p>
+                        <p> <input type="checkbox" name="poduto" value="5w30"> 5w30 </p>
+                    </div> 
+                </div>    
+                <label for="Razao">Razão Social</label>
+                <input class="dados" type="text" name="usuario" id="RazaoSocial">
+                <br><br>
+                <div>
+                    <label for="text">CNPJ</label>
+                    <input class="dados" type="text" name="CNPJ">
+                <br><br>
+                    <label for="email">E-mail</label>
+                    <input class="dados" type="email" name="email">
+                <br><br>
+                    <label for="Contato">Nome para contato</label>
+                    <input class="dadospessoais" type="text" name="contato">
+                
+                    <label for="Telefone">Telefone</label>
+                    <input class="dadospessoais" type="tel" name="telefone">
+               </div>
+                <br>
+                  <textarea placeholder="Deseja mais alguma informação?"></textarea>
+                <br><br>
+               <div>
+                   <button class="botao" type="submit">Enviar formulário</button>
+               </div> 
+            </form>
+            <img class="foto" src="imagen1.jpeg">
+            <img class="foto" src="imagen4.jpeg">
+            <img class="foto" src="imagen2.jpeg">            
+        </main>
+    </body>
+    <footer>
+        <div class="logo">
+            <img class="logo" src="log.png">
+        </div>
+    </footer>
+</html>        
